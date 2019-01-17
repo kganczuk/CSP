@@ -36,7 +36,7 @@ if __name__ == "__main__":
     loop = True
     while size > 0 or loop:
         loop = False
-        print ('1: N Que1ens, 2: Latin Square, 3: Sudoku, 4: Exit')
+        print ('1: N Queens, 2: Latin Square, 3: Sudoku, 4: Exit')
         problem = int(input('Problem CSP: '))
         if problem == 4:
             break
